@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Freshman Pomodoro Clock Demo</title>
+    <link rel="icon" href="clock.png" type="image/x-icon" />
+    <title>FY | Pomodoro App</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -46,9 +47,17 @@
       </div>
     </main>
     <div class="hidden">
-      <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
-      <audio src="break.mp3" data-sound="shortBreak"></audio>
-      <audio src="break.mp3" data-sound="longBreak"></audio>
+      <audio
+        src="backtowork.mp3"
+        id="pomodoroSound"
+        data-sound="pomodoro"
+      ></audio>
+      <audio
+        src="break.mp3"
+        id="shortBreakSound"
+        data-sound="shortBreak"
+      ></audio>
+      <audio src="break.mp3" id="longBreakSound" data-sound="longBreak"></audio>
     </div>
     <script src="main.js"></script>
   </body>

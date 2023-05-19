@@ -20,9 +20,9 @@ html {
 }
 
 :root {
-  --pomodoro: hsl(223, 25%, 40%);
-  --shortBreak: hsl(48, 23%, 40%);
-  --longBreak: hsl(105, 16%, 40%);
+  --pomodoro: #FF5876;
+  --shortBreak: #405B6C;
+  --longBreak: #86DCFF;
 }
 
 body {
@@ -55,6 +55,7 @@ progress::-webkit-progress-value {
   transform: translate(-50%, -50%);
   padding: 20px;
   text-align: center;
+  color:#fff;
 }
 
 .clock {
@@ -68,13 +69,13 @@ progress::-webkit-progress-value {
 }
 
 .mode-button {
-  font-size: 16px;
-  height: 28px;
+  font-size: 24px;
+  height: 42px;
   cursor: pointer;
   box-shadow: none;
   font-weight: 300;
   color: #fff;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   margin: 0px;
   border-radius: 4px;
   padding: 2px 12px;
